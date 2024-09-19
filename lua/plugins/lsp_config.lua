@@ -3,6 +3,7 @@ require("mason-lspconfig").setup({
     "lua_ls",
     "rust_analyzer",
     "ts_ls",
+    "intelephense",
   },
 })
 

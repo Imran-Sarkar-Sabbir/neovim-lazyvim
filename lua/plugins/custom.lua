@@ -13,7 +13,9 @@ return {
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   { "folke/tokyonight.nvim", lazy=false, priority = 1000, opts = {}, },
   { "navarasu/onedark.nvim", priority = 1000 },
-  {'Mofiqul/vscode.nvim', priority = 1000 },
+  { 'Mofiqul/vscode.nvim', priority = 1000 },
+  { "rebelot/kanagawa.nvim" },
+  { "rose-pine/neovim", name = "rose-pine" },
   { "tiagovla/tokyodark.nvim",
     opts = {
         -- custom options here

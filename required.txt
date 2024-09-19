@@ -1,0 +1,5 @@
+# image.nvim deps
+ - kitty (terminal emulator)
+ - ImageMagick (image rendering)
+      - ubuntu  "sudo apt install libmagickwand-dev"
+      - mac os "brew install imagemagick"
