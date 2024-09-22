@@ -7,8 +7,6 @@ require("mason-lspconfig").setup({
   },
 })
 
-vim.keymap.set("n", "<leader>xx", vim.diagnostic.setloclist, { desc = "Open diagnostics list" })
-
 -- disabled inlayHint functionality
 vim.lsp.handlers["textDocument/inlayHint"] = function() end
 
@@ -39,6 +37,7 @@ return {
             -- Disable tsserver formatting if you are using prettier
             client.server_capabilities.documentFormattingProvider = false
             client.server_capabilities.documentRangeFormattingProvider = false
+            vim.keymap.set("n", "<leader>xx", vim.diagnostic.setloclist, { desc = "Open diagnostics list" })
           end,
         },
       },
