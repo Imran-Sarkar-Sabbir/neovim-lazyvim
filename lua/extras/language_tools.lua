@@ -13,7 +13,7 @@ return {
   { import = "lazyvim.plugins.extras.linting.eslint" },
 
   -- coding
-  { import = "lazyvim.plugins.extras.coding.tabnine" },
+  -- { import = "lazyvim.plugins.extras.coding.tabnine" },
   { import = "lazyvim.plugins.extras.coding.mini-surround" },
   { import = "lazyvim.plugins.extras.coding.yanky" },
 
