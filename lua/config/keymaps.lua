@@ -9,6 +9,9 @@ vim.keymap.set("i", "<C-j>", "<Down>", { noremap = true, silent = true, desc = "
 vim.keymap.set("i", "<C-k>", "<Up>", { noremap = true, silent = true, desc = "Move cursor up in insert mode" })
 vim.keymap.set("i", "<C-l>", "<Right>", { noremap = true, silent = true, desc = "Move cursor right in insert mode" })
 
+vim.keymap.set({ "n", "v" }, "J", "5j", { noremap = true, desc = "Move cursor down 5 lines" })
+vim.keymap.set({ "n", "v" }, "K", "5k", { noremap = true, desc = "Move cursor up 5 lines" })
+
 -- Override LSP signature help keybinding
 vim.api.nvim_create_autocmd("LspAttach", {
   callback = function(args)
