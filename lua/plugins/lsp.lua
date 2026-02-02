@@ -7,6 +7,9 @@ return {
       -- Disable K (hover) to allow custom k mapping
       keys[#keys + 1] = { "K", false }
       keys[#keys + 1] = { "k", false }
+
+      -- Rebind hover to H
+      keys[#keys + 1] = { "T", vim.lsp.buf.hover, desc = "Hover" }
     end,
   },
 }
