@@ -68,7 +68,8 @@ return {
   },
   -- color schemas
   { "EdenEast/nightfox.nvim", lazy = true },
-  { "morhetz/gruvbox", lazy = true },
+  -- { "morhetz/gruvbox", lazy = true },
+  { "ellisonleao/gruvbox.nvim" },
   { "projekt0n/github-nvim-theme", lazy = true },
   { "sainnhe/gruvbox-material", lazy = true },
   { "navarasu/onedark.nvim", lazy = true },
